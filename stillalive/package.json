@@ -1,0 +1,11 @@
+{
+  "name": "@be/stillalive",
+  "version": "1.0.0",
+  "description": "Jibo sings Still Alive with the terminal music video.",
+  "main": "index.js",
+  "config": { "standalone": true },
+  "jibo": { "main": "index.html", "type": "asset-pack", "display-name": "still alive", "prompt": "Still Alive" },
+  "engines": { "node": ">=6.0" },
+  "syncDependencies": ["jibo", "@be/be-framework"],
+  "scripts": { "test": "node tests/still-alive.test.js" }
+}
