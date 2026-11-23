@@ -1,7 +1,7 @@
 {
     "name": "Still Alive",
-    "version": "1.0.0",
-    "supported": "3.1.8",
+    "version": "1.0.1",
+    "supported": "3.2.0",
     "type": "skill",
     "buttonColor": "#FFB01E #7A4A0E"
 }
